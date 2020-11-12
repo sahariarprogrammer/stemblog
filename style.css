@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Josefin+Sans&display=swap');
+
+:root {
+    --bg-size: 100% 100%;
+    --main-color: #fff;
+    --title: 'Josefin Sans', sans-serif;
+    --font-para: 'David Libre', serif;
+    --btn-color: #bbe1fa;
+    --btn-font-color: #000;
+    --btn-font: 1.5rem;
+    --eff: .2s ease;
+}
+
+*{
+    padding: 0;
+   margin: 0;
+   font-family: var(--font-para);
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.active{
+    border-bottom: 2px solid orange;
+}
+.fab {
+    color: #000;
+}
+
+.fab:hover {
+    color: #d0cecf;
+    transform: scaleY(1.5);
+}
+
+
+
+.top-most_line2{
+
+}
+.logo{
+    width: 10%;
+
+}
+.logo h3{
+   
+    color: green;
+    font-size: 3rem;
+}
+
+.dropthings{
+    width: 60%;
+    float: left;
+  justify-content: center;
+}
+.dropit{
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dropit:hover{
+    color: green;
+    
+}
+
+.dropdown-item{
+    color: white;
+    background-color: gray;
+    padding: 0.3rem;
+}
+
+.main-page-image{
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.main-page-image-left-side{
+    color: #fff;
+}
+
+.main-page-image-left-side h2{
+    font-family: var(--title);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-page-image-left-side h5{
+    font-size: 1.3rem;
+    justify-content: center;
+  
+}
+
+.main-page-image-left-side h6{
+    font-size: 1rem;
+    justify-content: center;
+  color: gray;
+}
+
+.main-page-image-right-side{
+    width: 60%;
+    float: right;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.whatshot{
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-design{
+    color: #fff;
+    background-color: #06090D;
+   opacity: 0.7;
+}
+
+.whats-hot-text{
+   
+    color: #fff;
+}
+
+.whats-hot-text:hover{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.pouplar-post-heading{
+
+}
+
+.pouplar-post-heading h2{
+    font-family: var(--title);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pouplar-post-heading h6{
+    text-align: center;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.popular-post-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#4A9DE2;
+}
+
+.views{
+    float: right;
+}
+
+.popular-post-card-text{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.popular{
+    color: #2E2529;
+}
+
+.popular:hover{
+    text-decoration: none;
+    color: #2E2529;
+}
+
+.part-3-left-side{
+   
+}
+
+.left-side-main-text{
+   justify-content: center;
+}
+
+.read-more:hover{
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
+
+.Recent-title{
+    text-decoration: none;
+    color: #2E2529;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.Recent-title:hover{
+    text-decoration: none;
+    color: #2E2529;
+}
+
+.Recent{
+    font-family: var(--title);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.inputemail{
+   
+    width: 108.5%;
+}
+
+.Subscribe{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: var(--title);
+}
+
+.insta-img{
+    width: 120%;
+    height: 100%;
+}
+
+.instagram{
+    margin-right: 2%;
+}
+
+.follow{
+    width: 101.5%;
+    margin-left: 4.4%;
+}
+
+.next{
+   text-align: center;
+    display: inline-block;
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.one{
+    background-color: #5A9DE2;
+}
+.btn:hover{
+    color: honeydew;
+    background-color: #5A9DE2;
+ }
+
+ .porerpage{
+    color: #2E2551;
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-family: var(--title);
+ }
+
+ .porerpage:hover{
+     color: #2E2551;
+     text-decoration: none;
+ }
+
+ .editors-img1{
+     background-image: url(ed1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   height: 35vh;
+ }
+ .editors-img2{
+    background-image: url(ed2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 35vh;
+}
+.editors-img3{
+    background-image: url(ed3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 35vh;
+}
+.editors-img4{
+    background-image: url(ed4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 35vh;
+}
+
+ .editors-card{
+ padding-top: 5.3rem;
+  
+ }
+
+ .editors-img-heading{
+     color: #fff;
+    
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ .editors-img-des{
+     color: #fff;
+     font-size: 1.2rem;
+     font-weight: bold;
+ }
+ .editors-img-des:hover{
+    text-decoration: none;
+    color: #fff
+ }
+
+
+ .editors-view{
+     color: gray;
+     font-weight: bold;
+ }
+
+ .view-more{
+     width: 30%;
+    
+ }
+
+ .view-more-part{
+    text-align: center;
+ }
+
+ .page-footer{
+     background-color: #1A1A1C;
+     color: #fff;
+ }
+
+ .STEM{
+     font-size: 1rem;
+     color: #fff;
+ }
+
+ .STEM:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
+.sign-up{
+    color: #fff;
+    background-color: #5A9DE2;
+}
+
+.search-button{
+    font-size: 1rem;
+}
